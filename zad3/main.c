@@ -86,5 +86,6 @@ int main(int argc, char *argv[]) {
 		free(ROWS[i]);
 	}
 	free(ROWS);
+	free(RESULTS);
 	pthread_mutex_destroy(&MUTEX);	
 }
